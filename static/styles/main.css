@@ -1,0 +1,97 @@
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #222222;
+}
+
+#command-area {
+    padding: 1.0em;
+    padding-top: 0;
+}
+
+#console-outer {
+    flex-basis: 100%;
+    height: 0;
+    padding: 1.0em;
+}
+
+#console-inner {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1.0em;
+}
+
+#console-area {
+    display: block;
+    height: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    overflow-y: scroll;
+}
+
+#console-area p {
+    margin: 0;
+    margin-top: 0.2em;
+    font-size: 12pt;
+    font-family: monospace;
+    color: #ffffff;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 2.2em;
+    padding: 0 0.8em;
+    box-sizing: border-box;
+    font-family: monospace;
+    background-color: #444444;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    color: #ffffff;
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #555555;
+}
+
+.f0 { color: #000000; }
+.f1 { color: #0000aa; }
+.f2 { color: #00aa00; }
+.f3 { color: #00aaaa; }
+.f4 { color: #aa0000; }
+.f5 { color: #aa00aa; }
+.f6 { color: #ffaa00; }
+.f7 { color: #aaaaaa; }
+.f8 { color: #555555; }
+.f9 { color: #5555ff; }
+.fa { color: #55ff55; }
+.fb { color: #55ffff; }
+.fc { color: #ff5555; }
+.fd { color: #ff55ff; }
+.fe { color: #ffff55; }
+.ff { color: #ffffff; }
+.fl { font-weight: bold; }
+.fm { text-decoration: line-through; }
+.fn { text-decoration: underline; }
+.fo { font-style: italic; }
+.fr { color: #ffffff; text-decoration: none; font-style: normal; font-weight: normal; }
