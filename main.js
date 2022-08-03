@@ -1,5 +1,5 @@
 //fetch("http://localhost:20560/players", {credentials: "include"});
-const urlBase = "http://localhost:20560",
+const urlBase = "https://siphon.bithole.dev",
       eventsEndpoint = new URL("/events", urlBase).href,
       commandEndpoint = new URL("/command", urlBase).href;
 
